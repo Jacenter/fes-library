@@ -139,7 +139,7 @@ button:active {
 
 /* HIGHLIGHTS */
 
-#highlight {
+#highlights {
   position: relative;
 }
 
@@ -151,13 +151,13 @@ button:active {
   height: 12vw;
   top: 1px;
   left: 0;
-  z-index: 1;
+  z-index: 0;
   background-size: cover;
   background-repeat: no-repeat;
   transform: translateY(-100%);
 }
 
-#highlights:after {
+ #highlights:after {
   background: url(assets/wave.svg);
   content: "";
   position: absolute;
@@ -165,7 +165,7 @@ button:active {
   height: 12vw;
   bottom: 1px;
   left: 0;
-  z-index: 1;
+  z-index: 0;
   background-size: cover;
   background-repeat: no-repeat;
   transform: translateY(100%);
